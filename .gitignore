@@ -1,0 +1,7 @@
+# Git Ignore File...
+export/**/*
+nucourt/*
+.env
+ngrok_policy.yaml
+.idea/**/*
+__pycache__/*

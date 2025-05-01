@@ -1,0 +1,11 @@
+#https://ngrok.com/blog-post/authentication-with-ngrok
+
+on_http_request:
+  - actions:
+    - type: basic-auth
+      config:
+          credentials:
+            - USERNAME:PASSWORD
+
+
+# ngrok http --url=<GIVEN DOMAIN>.ngrok-free.app --traffic-policy-file=ngrok_policy.yaml 8501
